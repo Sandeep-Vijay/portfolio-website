@@ -27,7 +27,7 @@
         </ul>
        
         <div class="covercir"  >
-            <img id="coverpng" src="./images/IMG_5876.JPG" alt="">
+            <img id="coverpng" src="./images/aa.png" alt="">
         </div>
         <h1 id="hello">Hello!</h1>
         <h3 id="name">I'm Sandeep Vijay</h3>
@@ -42,15 +42,13 @@
         </ul>
 
     </div>
-    <div class="abtmain">
-        <div id="aboutdiv" class="w-100">
+    <div class="abtmain" style="background-image: linear-gradient(90deg, rgb(239, 239, 239), rgb(255, 255, 255),rgba(237, 237, 237, 0.996) )">
+        
+        <div class="container w-100 " id="propic">
             <h1 style="display: flex; justify-content: center; font-weight: 900; padding: 30px;  font-size: 3em; font-family: 'Ubuntu', sans-serif; opacity: 70%;" class="text-center  ">About Us</h1>
         
             <h3 style="font-family: 'PT Sans', sans-serif;display: flex; justify-content: center;">WHO AM I?</h3>
-        </div>
-        
-        <div class="container w-100 " id="propic">
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-4">
                     <img class="propicture" src="./images/IMG_5875.JPG" alt="">
                 </div>
@@ -105,19 +103,76 @@
             </div>
         </div>
     </div>
-    <div ><button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-sort-up text-white fa-2x"></i></button></div>
-    <div class="contact">
+    <div ><button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-sort-up text-white fa-3x"></i></button></div>
+    <div class="contact" style="background-image: linear-gradient(90deg, rgb(228, 245, 254),  rgb(222, 238, 252))">
         <h1 style="display: flex; justify-content: center; font-weight: 900; padding: 30px;  font-size: 3em; font-family: 'Ubuntu', sans-serif; opacity: 70%;" class="text-center  ">Contact</h1>
-        <div class="container w-100">
-            <div class="row">
-                <div class="col-12">
+        <h3 style="display: flex; justify-content: center; padding: 40px;">Get In Touch!</h3>
+        <div class="container w-100 ">
+            <div class="row p-5">
+                <div class="col-6">
+                    <div class="container ms-4 mt-5">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h5 style="display: inline-block;">Anicadu,Muvattupuzha,Ernakulam dist.,Kerala</h5><br>
+                        <i class="fa-solid fa-square-phone"></i>
+                        <h5 style="display: inline-block;">+91 96 05 98 57 01</h5><br>
+                        <i class="fa-solid fa-envelope"></i>
+                        <h5 style="display: inline-block;">sandeepnvijay@gmail.com</h5>
+                    </div>
+                    <ul style="list-style-type: none; margin-top: 40px;  ">
+                        <button class="soc2 soc21"><i  class="fa-brands fa-square-facebook fa-2x text-white "></i></button>
+                        <button class="soc2 soc22"><i  class="fa-brands fa-square-instagram fa-2x text-white"></i></button>
+                        <button class="soc2 soc23"><i  class="fa-brands fa-linkedin fa-2x text-white"></i></button><br>
+                        <button class="soc2 soc24"><i  class="fa-brands fa-square-behance fa-2x text-white "></i></button>
+                        <button class="soc2 soc25"><i  class="fa-brands fa-square-twitter fa-2x text-white "></i></button>
+                        <button class="soc2 soc26"><i  class="fa-brands fa-square-github fa-2x text-white"></i></button>                    </ul>
+
 
                 </div>
-                <div class="col-12">
+                <div class="col-6" >
+                   <h2>Leave a message</h2>
+                    <form style="width: 600px; ">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Name</label>
+                            <input type="text" style="background-color: rgb(255, 255, 255);" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="name" class="form-text"></div>
+                          </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" style="background-color: rgb(255, 255, 255);;" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea name="" id="message" style="background-color: rgb(255, 255, 255);" cols="30" rows="4" class="form-control"></textarea>
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
                     
                 </div>
             </div>
         </div>
+    </div>
+    <div class="footer text-center">
+        <br>
+        
+        <h5 style="color: white; font-family: 'Ubuntu', sans-serif;  display:grid; place-items: center;">Sandeep Vijay</h5>
+        <a class="f1" href="">Home</a>
+        <a class="f1" href="">About Us</a>
+        <a class="f1" href="">Projects</a>
+        <a class="f1" href="">Contacts</a>
+        <ul style="list-style-type:none;  " class="container w-50 mt-4">
+            <i id="social" class="fa-brands fa-square-facebook text-white "></i>
+            <i id="social" class="fa-brands fa-square-instagram  text-white ms-2"></i>
+            <i id="social" class="fa-brands fa-linkedin text-white ms-2"></i>
+            <i id="social" class="fa-brands fa-square-behance text-white ms-2"></i>
+            <i id="social" class="fa-brands fa-square-twitter text-white ms-2"></i>
+            <i id="social" class="fa-brands fa-square-github text-white ms-2"></i>
+        </ul>
+
     </div>
 </body>
 </html>

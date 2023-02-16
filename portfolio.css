@@ -14,9 +14,10 @@
 }
 #coverpng{
   position: absolute;
-  width: 25%;
-  top: 20px;
-  border-radius: 50%;
+  width: 35%;
+  top: 25px;
+  left: 600px;
+  opacity: 80%;
 }
 .covercir{
     box-shadow: 10px 30px 25px 10px #00000028;
@@ -24,6 +25,7 @@
     border-radius: 50%; 
     width: 400px; 
     height: 400px;
+    margin-top: -200px;
 }
 .coverbuttons{
     border: none; 
@@ -84,7 +86,7 @@ h1{
 }
 #hello{
     position: absolute;
-    top: 300px;
+    top: 200px;
     left: 1100px;
     font-size: 4em;
     font-weight: bold;
@@ -92,10 +94,11 @@ h1{
 #name{
     position: absolute;
     left: 1100px;
+    top: 280px;
 }
 #desg{
 position: absolute;
-top: 420px;
+top: 320px;
 left: 1100px;
 font-weight: bold;
 }
@@ -131,7 +134,7 @@ font-weight: bold;
     right: 30px; 
     border: none; 
     outline: none; 
-    background-color: rgb(185, 96, 223); 
+    background-color: rgb(31, 23, 255); 
     color: white; 
     cursor: pointer; 
     padding: 15px; 
@@ -147,13 +150,14 @@ font-weight: bold;
   }
   #propic{
 
-    height: 600px;
+    height: 800px;
   }
   .propicture{
     width: 345px;
     height: 518px;
-    border-radius: 40px;
-    box-shadow: 20px 10px 20px 10px #0000000c;
+    border-radius: 0px;
+    
+    /* box-shadow: 20px 10px 20px 10px #0000000c; */
   }
   #buttoncv{
     margin-top: 30px;
@@ -171,7 +175,7 @@ box-shadow: -5px 5px 10px 2px #0000001d;
      opacity: 100%;
   }
   #projectdiv{
-    height: 540px;
+    height: 600px;
   }
   .card:hover{
     box-shadow: 5px 5px 10px 2px #0000001d;
@@ -181,4 +185,57 @@ box-shadow: -5px 5px 10px 2px #0000001d;
   .projectsmain{
     background-image: linear-gradient(90deg, rgb(39, 39, 39), rgb(53, 53, 53)); 
   }
-  .abtmain{}
+  .soc2{
+   width: 150px;
+   height: 150px;
+   border: none;
+   opacity: 80%;
+   
+  }
+  .soc21{
+    background-image: linear-gradient(90deg, rgb(52, 79, 255), rgb(48, 128, 241) )
+    
+  }
+  .soc22{
+     background-image: linear-gradient(90deg, rgb(250, 80, 100), rgb(199, 54, 54) )
+  }
+  .soc23{
+     background-image: linear-gradient(90deg, rgb(0, 54, 162), rgb(36, 22, 233) )
+  }
+  .soc24{
+    background-image: linear-gradient(90deg, rgb(48, 48, 48), rgb(25, 25, 25) )
+  }
+  .soc25{
+background-image: linear-gradient(90deg, rgb(45, 185, 255), rgb(25, 175, 205) )
+  }
+  .soc26{
+background-image: linear-gradient(90deg, rgb(118, 118, 118), rgb(92, 87, 87) )
+  }
+
+.soc2:hover{
+opacity: 100%;
+ box-shadow: 5px 5px 10px 2px #0000001d;
+     transform: scale(1.02);
+  }
+  .footer{
+    height: 200px;
+    background-color: #2c2c2c;
+  }
+
+  .f1{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    opacity: 60%;
+    
+  }
+  .f1:hover{
+    opacity: 100%;
+  }
+  #social{
+    opacity: 60%;
+  }
+  #social:hover{
+    opacity: 100%;
+    transform: scale(1.03);
+  }
