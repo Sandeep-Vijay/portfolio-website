@@ -250,9 +250,10 @@ opacity: 100%;
     }
    .homebutton{
     left: 30px;
+    
    }
    #home{
-    left: 37px;
+    left: 35px;
     top: 190px;
    }
    .aboutbutton{
@@ -425,44 +426,49 @@ opacity: 100%;
   }
 
      @media(max-width: 375px){
+     
+
+
+
+
     .coverbuttons{
-      width: 40px;
-      height: 40px;
+      width: 50px;
+      height: 50px;
     }
    .homebutton{
     left: 150px;
     top: 100px;
    }
    #home{
-    left: 158px;
-    top: 145px;
+    left: 162px;
+    top: 155px;
     font-size: xx-small;
    }
    .aboutbutton{
-    left: 200px;
+    left: 205px;
     top: 100px;
    }
    #about{
-    left: 208px;
-    top: 145px;
+    left: 217px;
+    top: 155px;
     font-size: xx-small;
    }
    .projectbutton{
     left: 150px;
-    top: 160px;
+    top: 170px;
    }
    #projects{
-    left: 155px;
-    top: 205px;
+    left: 158px;
+    top: 225px;
     font-size: xx-small;
    }
    .contactbutton{
-    left: 200px;
-    top: 160px;
+    left: 205px;
+    top: 170px;
    }
    #contact{
-    left: 205px;
-    top: 205px;
+    left: 213px;
+    top: 225px;
     font-size: xx-small;
    }
     #coverpng{
@@ -517,4 +523,14 @@ opacity: 100%;
     padding: 10px;
    }
    
+   }
+   @media(max-width: 667px){
+    #coverpng{
+      top: 495px;
+      left: 250px;
+    }
+    .covercir{
+      height: 170px;
+      margin-top: 400px;
+    }
    }
