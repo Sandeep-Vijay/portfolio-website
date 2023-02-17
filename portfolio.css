@@ -299,6 +299,25 @@ opacity: 100%;
    }
   
   }
+    @media(max-width: 667px){
+    #coverpng{
+      top: 495px;
+      left: 250px;
+    }
+    .covercir{
+      height: 170px;
+      margin-top: 400px;
+    }
+    #hello{
+      left: 270px;
+    }
+    #name{
+      left: 260px;
+    }
+    #desg{
+      left: 200px;
+    }
+   }
 
 
   @media(max-width: 576px){
@@ -426,12 +445,7 @@ opacity: 100%;
   }
 
      @media(max-width: 375px){
-     
-
-
-
-
-    .coverbuttons{
+     .coverbuttons{
       width: 50px;
       height: 50px;
     }
@@ -472,7 +486,7 @@ opacity: 100%;
     font-size: xx-small;
    }
     #coverpng{
-     left: 80px;
+     left: 60px;
      top: 455px;
      width: 70%;
     }
@@ -524,13 +538,4 @@ opacity: 100%;
    }
    
    }
-   @media(max-width: 667px){
-    #coverpng{
-      top: 495px;
-      left: 250px;
-    }
-    .covercir{
-      height: 170px;
-      margin-top: 400px;
-    }
-   }
+ 
