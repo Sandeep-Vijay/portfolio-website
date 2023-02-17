@@ -329,36 +329,45 @@ opacity: 100%;
 
   @media(max-width: 414px){
     .coverbuttons{
-      width: 60px;
-      height: 60px;
+      width: 40px;
+      height: 40px;
     }
    .homebutton{
-    left: 10px;
+    left: 170px;
+    top: 100px;
    }
    #home{
-    left: 18px;
-    top: 190px;
+    left: 178px;
+    top: 145px;
+    font-size: xx-small;
    }
+   
    .aboutbutton{
-    left: 10px;
+    left: 220px;
+    top: 100px;
    }
    #about{
-    left: 18px;
-    top: 350px;
+    left: 228px;
+    top: 145px;
+    font-size: xx-small;
    }
    .projectbutton{
-    left: 10px;
+    left: 170px;
+    top: 160px;
    }
    #projects{
-    left: 12px;
-    top: 510px;
+    left: 175px;
+    top: 205px;
+    font-size: xx-small;
    }
    .contactbutton{
-    left: 10px;
+    left: 220px;
+    top: 160px;
    }
    #contact{
-    left: 12px;
-    top: 670px;
+    left: 225px;
+    top: 205px;
+    font-size: xx-small;
    }
     #coverpng{
      left: 80px;
@@ -371,21 +380,140 @@ opacity: 100%;
      width: 60%;
     }
     #hello{
-     top: 170px;
+     top: 260px;
      left: 135px;
     }
     #name{
-     top: 260px;
-     left: 130px;
+     top: 350px;
+     left: 145px;
+     font-size: medium;
     }
     #desg{
-     top: 300px;
-     left: 110px;
-     font-size: large;
+     top: 380px;
+     left: 115px;
+     font-size: medium;
     }
+   #soc{
+    font-size: medium;
+   }
+    #ul1{
+    display: inline-flex;
+    top: 10px;
+    left: 110px;
+    
+   }
+    #soc{
+      font-size: medium;
+      margin-left: 10px;
+   }
+   #myBtn{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+   }
+   #lum{
+    text-align: center;
+   }
+   #det{
+    text-align: center;
+  }
+  #buttoncv{
+    margin-left: 55px;
+   }
+   
+  }
+
+     @media(max-width: 375px){
+    .coverbuttons{
+      width: 40px;
+      height: 40px;
+    }
+   .homebutton{
+    left: 150px;
+    top: 100px;
+   }
+   #home{
+    left: 158px;
+    top: 145px;
+    font-size: xx-small;
+   }
+   .aboutbutton{
+    left: 200px;
+    top: 100px;
+   }
+   #about{
+    left: 208px;
+    top: 145px;
+    font-size: xx-small;
+   }
+   .projectbutton{
+    left: 150px;
+    top: 160px;
+   }
+   #projects{
+    left: 155px;
+    top: 205px;
+    font-size: xx-small;
+   }
+   .contactbutton{
+    left: 200px;
+    top: 160px;
+   }
+   #contact{
+    left: 205px;
+    top: 205px;
+    font-size: xx-small;
+   }
+    #coverpng{
+     left: 80px;
+     top: 455px;
+     width: 70%;
+    }
+    .covercir{
+     margin-top: 350px;
+     height: 220px;
+     width: 60%;
+    }
+    #hello{
+     top: 270px;
+     left: 133px;
+     font-size: 3em;
+    }
+    #name{
+     top: 350px;
+     left: 130px;
+     font-size: medium;
+    }
+    #desg{
+     top: 380px;
+     left: 115px;
+     font-size: small;
+    }
+    #soc{
+      font-size: medium;
+      margin-left: 10px;
+      
+      
+    }
+    #lum{
+     text-align: center;
+    }
+    #det{
+      text-align: center;
+    }
+   #buttoncv{
+    margin-left: 40px;
+   }
+   #ul1{
+    display: inline-flex;
+    top: 10px;
+    left: 90px;
+    
+   }
+   #myBtn{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+   }
    
    }
-a{
-  
-  color: inherit;
-}
